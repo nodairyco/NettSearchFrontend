@@ -1,0 +1,86 @@
+/* Welcome */
+
+.WelcomeFlexContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.NettSearchs {
+  color: rgb(39, 118, 93);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 50px;
+}
+.Date {
+  color: rgb(255, 255, 255);
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Links */
+
+.LinksFlexContainer {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 10px;
+}
+.AI {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Courier New", Courier, monospace;
+  transition: 0.4s;
+}
+.AI:hover {
+  background-color: rgb(39, 118, 93);
+  color: white;
+  font: bold;
+}
+.download {
+  font-size: 15px;
+  background: none;
+  border: 0;
+  color: white;
+  padding: 12px;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  transition: 0.4s;
+  text-decoration: none;
+}
+.download:hover {
+  border-bottom: 0.5px;
+  border-style: solid;
+}
+
+/* Text */
+
+.TextContainer {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.text {
+  color: rgb(255, 255, 255);
+
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Examples */
+

@@ -1,0 +1,90 @@
+.SubFlex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .FreeFlex {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(18, 18, 18);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: start;
+    color: white;
+  }
+  .ProFlex {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(18, 18, 18);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: start;
+    color: white;
+  }
+  .UltiFlex {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(18, 18, 18);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: start;
+    color: white;
+  }
+  .FreeFlex > p {
+    font-size: 13px;
+  }
+  
+  .Register {
+    margin-top: auto;
+    align-self: center;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .Register:hover {
+    background-color: rgb(39, 118, 93);
+    color: white;
+  }
+  
+  .ProFlex > button {
+    background-color: rgb(34, 222, 106);
+  }
+  .ProFlex > p {
+    font-size: 13px;
+  }
+  #ProPrice {
+    color: rgb(34, 222, 106);
+  }
+  #UltiPrice {
+    color: rgb(206, 26, 158);
+  }
+  .UltiFlex > button {
+    background-color: rgb(206, 26, 158);
+  }
+  .UltiFlex > p {
+    font-size: 13px;
+  }
+  .features {
+    font-size: 18px;
+    color: rgb(135, 134, 134);
+  }
+  

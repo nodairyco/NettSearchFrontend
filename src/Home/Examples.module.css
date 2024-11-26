@@ -1,0 +1,58 @@
+.ExampFlex {
+    display: flex;
+    color: white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    flex-direction: column;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .ExampFlex > h1 {
+    text-align: center;
+    color: rgb(39, 118, 93);
+  }
+  .ExampFlex > p {
+    width: 600px;
+    text-align: justify;
+  }
+  .perpeFlex {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .perpeFlex > div {
+    background-color: rgb(26, 26, 26);
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  .Bustiness {
+    color: white;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .burstiFlex {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .burstiFlex > div {
+    background-color: rgb(26, 26, 26);
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+  }

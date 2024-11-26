@@ -1,0 +1,61 @@
+.FlexTape {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 350px;
+    border-radius: 25px;
+
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.instruction {
+    margin-top: 15px;
+    margin-left: 35px;
+    font-size: 15px;
+    color: rgb(18,53,36);
+    font-family: 'Courier New', Courier, monospace;
+}
+.InpText {
+    margin: 2px;
+    margin-top: 5px;
+    resize: none;
+    padding: 15px;
+    width: 465px;
+    height: 200px;
+    border: 0;
+    border-top: 1px;
+    border-style: solid;
+    border-color: rgb(199, 199, 199);
+    color: rgb(18,53,36);
+}
+.InpText:focus {
+    outline: none;
+}
+.Scan {
+    margin-top: 60%;
+    width: fit-content;
+    background-color:  rgb(39, 118, 93);
+    text-decoration: none;
+    border: 0;
+    border-radius: 20px;
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.MaskOff {
+    width: fit-content;
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 265px;
+    margin-left: 100px;
+    color: white;
+}
