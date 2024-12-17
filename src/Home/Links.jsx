@@ -7,7 +7,7 @@ export const Links = () => {
         <div className={css.LinksFlexContainer}>
              <Link to="/NettSearch" className={css.AI} >Try NettSearch</Link>
              <a href="#Subscribtions" className={css.download}>Subscriptons &gt;</a>
-             <button className={css.download}>Download Nettsearch &gt;</button>
+             <a href="#Api" className={css.download}>Api &gt;</a>
              
         </div>
     )

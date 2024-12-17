@@ -16,6 +16,12 @@
   font-weight: bolder;
   font-size: 50px;
 }
+h3{
+color: rgb(39, 118, 93);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 50px;
+}
 .Date {
   color: rgb(255, 255, 255);
   font-family: "Courier New", Courier, monospace;

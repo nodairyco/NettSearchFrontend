@@ -11,7 +11,7 @@ export const UI = () => {
       <Link to="/SignIn" className={css.invbutton}>
         <img src={ProfIcon} alt="Profile Icon" className={css.ProfIcon} />
       </Link>
-      <label >Products </label>
+      <label style={{fontFamily:'"JetBrains Mono", sarif'}} >Products </label>
     </div>
   );
 };

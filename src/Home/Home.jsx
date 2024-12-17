@@ -5,6 +5,7 @@ import { Links } from "./Links";
 import { Text } from "./Text";
 import { Subscribe } from "./Subscriptions";
 import { Examples } from "./Examples";
+import ApiPage from "./ApiPage";
 
 /*
       
@@ -16,7 +17,9 @@ export const Home = () => {
       <Links />
       <Text />
       <Examples />
+      <ApiPage />
       <Subscribe />
+      <br/><br/>
     </div>
   );
 };

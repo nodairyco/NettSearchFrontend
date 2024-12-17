@@ -6,19 +6,53 @@
     width: 500px;
     height: 350px;
     border-radius: 25px;
+    z-index: 15;
 
     position: absolute;
     top: 50%;
     left: 70%;
     transform: translate(-50%, -50%);
 }
+
+.doesntmatter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 350px;
+    border-radius: 25px;
+    z-index: 15;
+    top: 50%;
+    left: 70%;
+    transform: translate(-130%, -50%);
+    position: absolute;
+}
+
+.aiThingyShower {
+    position: absolute;
+    padding-top: 20px;
+    transform: translate(150%, 93%); 
+    z-index: -15;
+    background: rgb(48, 47, 47); 
+    height: 330px; 
+    border-radius: 24px;
+    width: 300px;
+}
+.aiThingyShower h1{
+    color: white;
+}
+
+
 .instruction {
+    z-index: 15;
     margin-top: 15px;
     margin-left: 35px;
     font-size: 15px;
-    color: rgb(18,53,36);
+    color: rgb(18, 53, 36);
     font-family: 'Courier New', Courier, monospace;
 }
+
 .InpText {
     margin: 2px;
     margin-top: 5px;
@@ -30,15 +64,17 @@
     border-top: 1px;
     border-style: solid;
     border-color: rgb(199, 199, 199);
-    color: rgb(18,53,36);
+    color: rgb(18, 53, 36);
 }
+
 .InpText:focus {
     outline: none;
 }
+
 .Scan {
     margin-top: 60%;
     width: fit-content;
-    background-color:  rgb(39, 118, 93);
+    background-color: rgb(39, 118, 93);
     text-decoration: none;
     border: 0;
     border-radius: 20px;
@@ -50,6 +86,7 @@
     font-size: 15px;
     cursor: pointer;
 }
+
 .MaskOff {
     width: fit-content;
     text-align: justify;
